@@ -1,0 +1,12 @@
+android_app_import {
+	name: "LMC-Prebuilt",
+	owner: "lmc",
+	apk: "LMC-Prebuilt.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Aperture", "Camera2", "GCamGOPrebuilt-V2", "GrapheneCamera", "Snap"],
+}
