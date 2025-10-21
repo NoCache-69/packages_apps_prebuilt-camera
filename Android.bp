@@ -1,7 +1,7 @@
 android_app_import {
-	name: "LMC-Prebuilt",
-	owner: "lmc",
-	apk: "LMC-Prebuilt.apk",
+	name: "SG_Cam",
+	owner: "sg",
+	apk: "SG_Cam.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
